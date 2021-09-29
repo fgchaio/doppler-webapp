@@ -823,6 +823,16 @@ Con Doppler puedes generar Segmentos con intereses o características comunes, c
     error_unexpected_MD: `¡Ouch! Detectamos un problema de conexión. Por favor inténtalo nuevamente en unos minutos.`,
     error_unexpected_register_MD: `¡Ouch! Algo salió mal. Por favor, vuelve a intentarlo más tarde o [contacta a nuestro equipo de Soporte](${mailtoSupport}).`,
   },
+  zoho_crm: {
+    promotional_btn_redirect: `Ver planes plus`,
+    promotional_description: `Accede a la integración con Zoho CRM. Con esta integración podrás: `,
+    promotional_paragraph_strong: `Potencia tus Campañas sincronizando los contactos de tu CRM.`,
+    promotional_title: `Conecta Doppler con Zoho CRM`,
+    promotional_ul_item_mapping: `Mapear los campos de tu CRM con campos de Doppler.`,
+    promotional_ul_item_subscribers: `Sincronizar los módulos de tu CRM con una lista de Doppler.`,
+    promotional_ul_item_syncing: `Mantener tus listas sincronizadas de forma automática.`,
+    promotional_upgrade_plan_url: `${urlUpgradePlan}`
+  }
 };
 
 export default messages_es;

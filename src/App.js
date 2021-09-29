@@ -32,6 +32,7 @@ import Checkout from './components/ChangePlan/Checkout/Checkout';
 import { CheckoutSummary } from './components/ChangePlan/Checkout/CheckoutSummary';
 import { Dashboard } from './components/Dashboard/Dashboard';
 import { ControlPanel } from './components/ControlPanel/ControlPanel';
+import { ZohoCrm } from './components/Integrations/ZohoCrm/ZohoCrm';
 
 /**
  * @param { Object } props - props
@@ -152,6 +153,7 @@ const App = ({ locale, location, window, dependencies: { appSessionRef, sessionM
               />
               <PrivateRoute path="/integrations/big-query" exact component={AuthorizationPage} />
               <PrivateRoute path={['/checkout-summary']} exact component={CheckoutSummary} />
+              <PrivateRoute path={['/integrations/zoho-crm-section']} exact component={ZohoCrm} />
               <PublicRouteWithLegacyFallback exact path="/login" />
               <PublicRouteWithLegacyFallback exact path="/signup" />
               <PublicRouteWithLegacyFallback exact path="/login/reset-password" />

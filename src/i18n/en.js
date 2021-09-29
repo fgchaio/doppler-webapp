@@ -821,6 +821,17 @@ With Doppler you can generate Segments with common interests, create Forms to at
     error_unexpected_MD: `Ouch! There seems to be a connection problem. Please try again in a few minutes.`,
     error_unexpected_register_MD: `Ouch! Something went wrong. Please try again later or [contact our Support team](${mailtoSupport}).`,
   },
+  zoho_crm: {
+    promotional_btn_redirect: `Look at plus plans`,
+    promotional_description: `Access to the Zoho CRM integration. With this integration you can:`,
+    promotional_paragraph_strong: `Boost your Campaigns syncing contacts of your CRM .`,
+    promotional_title: `Connect Doppler with Zoho CRM`,
+    promotional_ul_item_mapping: `Map your CRM's fields with Doppler fields.`,
+    promotional_ul_item_subscribers: `Synchronize your CRM's modules with a Doppler list.`,
+    promotional_ul_item_syncing: `Keep your list up to date with the automatic synchronization.`,
+    promotional_upgrade_plan_url: `${urlUpgradePlan}`,
+    
+  }
 };
 
 export default messages_en;
