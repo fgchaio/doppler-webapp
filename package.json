@@ -148,7 +148,7 @@
   },
   "devDependencies": {
     "@testing-library/dom": "^8.2.0",
-    "@testing-library/user-event": "^13.2.1",
+    "@testing-library/user-event": "^14.4.3",
     "@types/react-credit-cards": "^0.8.1",
     "@types/styled-components": "^5.1.13",
     "husky": "^7.0.2",
