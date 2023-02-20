@@ -153,6 +153,6 @@
     "@types/styled-components": "^5.1.13",
     "husky": "^7.0.2",
     "jest-environment-jsdom-sixteen": "^1.0.3",
-    "lint-staged": "^11.1.2"
+    "lint-staged": "^13.1.2"
   }
 }
